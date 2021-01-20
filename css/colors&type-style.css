@@ -13,6 +13,7 @@
     font-style: normal;
 }
 body {
+    margin: 0px auto;
     font-family: 'Montserrat';
     font-size: 19px;
     background: #fff;
@@ -32,25 +33,54 @@ body {
     top: 145px;
 }
 
-.colors-1 {
-    /*font-weight: bold;*/
+.colors__element {
     display:flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
-.colors__text-1 {
+.colors__text {
     padding-top: 9.5px;
-    padding-right: 0.25px;
+    margin-left: 40px;
     color: #1F2041;
 }
 
-p {
+.colors__text p {
     margin-top: 5px;
 }
 
-.colors__100 {
+.square-shape {
+    margin-bottom: 20px;
     width: 70px;
     height: 70px;
-    background: #1F2041;
     border-radius: 6px;
+}
+
+.colors_dark-shade-100 {
+    background: rgba(31, 32, 65, 1)
+}
+.colors_dark-shade-75 {
+    background: rgba(31, 32, 65, 0.75)
+}
+.colors_dark-shade-50 {
+    background: rgba(31, 32, 65, 0.5)
+}
+.colors_dark-shade-25 {
+    background: rgba(31, 32, 65, 0.25)
+}
+.colors_dark-shade-5 {
+    background: rgba(31, 32, 65, 0.05)
+}
+.colors_purple {
+    background: rgba(188, 156, 255, 1);
+}
+.colors_green {
+    background: rgba(111, 207, 151, 1);
+}
+
+.type {
+    position: absolute;
+    width: 436px;
+    height: 321px;
+    left: 846px;
+    top: 145px;
 }
