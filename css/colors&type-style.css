@@ -84,3 +84,34 @@ body {
     left: 846px;
     top: 145px;
 }
+
+.type__titles {
+    display: flex;
+}
+.type__titles_position {
+    margin: 0px 0px 52px 67px;
+}
+.type__titles_fontsz-h1{
+    font-size: 24px;
+}
+.type__titles_fontsz-h2 {
+    font-size: 19px;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+.type__titles_fontsz-h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+.type__titles_body {
+    font-size: 14px;
+    color: rgba(31, 32, 65, 0.75);
+}
+.type__titles_text-color {
+    right: 399px;
+    text-align: right;
+    margin: 0;
+    position: absolute;
+    color: rgba(31, 32, 65, 0.25);
+}
