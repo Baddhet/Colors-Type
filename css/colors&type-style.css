@@ -102,14 +102,15 @@ body {
 .type__titles_fontsz-h3 {
     text-transform: uppercase;
     font-size: 12px;
-    margin-bottom: 50px;
+    margin-bottom: 47px;
 }
 .type__titles_body {
     font-size: 14px;
     color: rgba(31, 32, 65, 0.75);
+    line-height: 24px;
 }
 .type__titles_text-color {
-    right: 399px;
+    width: 37px;
     text-align: right;
     margin: 0;
     position: absolute;
